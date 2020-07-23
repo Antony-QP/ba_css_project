@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  line-height: 1.6;
+  box-sizing: border-box; }
+
+.container {
+  margin: 0 125px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+#header-main {
+  position: relative; }
+
+.header-top {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.logo-box ul {
+  display: flex; }
+
+.logo-box #logo-1 {
+  width: 250px;
+  height: 50px; }
+
+.logo-box #logo-2 {
+  width: 40px;
+  height: 40px;
+  margin-left: 1rem; }
+
+.header-icons ul {
+  display: flex; }
+
+.header-icons ul li .login {
+  display: flex;
+  align-items: center; }
+
+.header-icons ul i {
+  margin-left: 2rem;
+  color: #021b41; }
+
+.line {
+  position: absolute;
+  margin-top: 100px;
+  border-bottom: 1px solid #efeff0;
+  width: 100%;
+  z-index: 1; }
+
+.header-bottom {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center; }
+
+.header-bottom ul {
+  display: flex; }
+  .header-bottom ul li {
+    margin-right: 40px; }
+  .header-bottom ul a {
+    color: #021b41;
+    font-size: 1.1rem; }
+
+.header-bottom .british-flag {
+  width: 20px;
+  height: 20px; }
+
+.language-info {
+  display: flex;
+  align-items: center; }
+  .language-info img {
+    margin-right: 5px; }
+
+.image-container .main-image {
+  height: 100vh;
+  width: 100%; }
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("../img/beach_photo.jpg") no-repeat center center/cover; }
+
+.form-container,
+.options-grid {
+  display: block; }
+
+.options-grid .options {
+  display: flex; }
+  .options-grid .options li {
+    width: 150px;
+    height: 150px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3px;
+    background-color: #e1e1e1;
+    color: #4c4c4c; }
+  .options-grid .options i {
+    margin-bottom: 25px;
+    border: 3px solid #4c4c4c;
+    border-radius: 50%;
+    padding: 10px; }
+  .options-grid .options p {
+    color: #292929; }
+  .options-grid .options .plus-red {
+    color: #bb4f4e; }
+
+.form-container {
+  width: 900px;
+  height: 200px;
+  padding: 2rem 3rem;
+  background: #ffffff;
+  margin-top: 50px;
+  border-radius: 3px; }
+  .form-container .flight-choice {
+    display: flex; }
+    .form-container .flight-choice li {
+      margin-right: 15px; }
+    .form-container .flight-choice a {
+      color: #4c4c4c; }
+  .form-container #form {
+    display: flex;
+    margin-top: 10px; }
+    .form-container #form .form-item {
+      margin-right: 10px; }
+  .form-container .input-container {
+    display: flex;
+    flex-direction: column; }
+    .form-container .input-container input[type="text"] {
+      width: 250px;
+      height: 66px;
+      margin-bottom: 15px;
+      border: 1px solid #c9c9c9;
+      border-radius: 3px;
+      padding: 0 0 0 10px; }
+  .form-container .form-box {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #c9c9c9;
+    text-align: center;
+    border-radius: 3px; }
+  .form-container .selection-class,
+  .form-container .selection-passenger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 66px;
+    margin-bottom: 15px;
+    border: 1px solid #c9c9c9;
+    border-radius: 3px;
+    padding: 0 5px 0 5px; }
+    .form-container .selection-class select,
+    .form-container .selection-passenger select {
+      border: none; }
+  .form-container .plus-red {
+    color: #bb4f4e; }
+  .form-container .flight-date {
+    font-size: 35px; }
+  .form-container .btn-search {
+    background: #bb4f4e; }
+    .form-container .btn-search input[type="submit"] {
+      display: none; }
+    .form-container .btn-search .icon-white {
+      color: #ffffff; }
+
+.deal-text {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 50px;
+  width: 800px; }
+  .deal-text p,
+  .deal-text h2 {
+    text-shadow: 1px 1px #333; }
